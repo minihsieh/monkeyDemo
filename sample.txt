@@ -1,0 +1,16 @@
+連猴子都會使用Git
+
+編輯檔案
+
+1. 從 Swift 呼叫 Swift function
+2. 從 Swift 呼叫 Objective-C function
+3. 從 Objective-C 呼叫 Swift Function
+4. 從 Swift 呼叫 Objective-C 呼叫 Swift 的 Fucntion (這樣很好玩嗎 XDD)
+5. 整合 Cocoapods (不用害怕使用 Swift 無法使用 Objective-C 強大的第三方函式庫)
+* SwiftIPManager.swift
+一個使用 AFNetworking 取得 IP 的類別
+並且 定義 @objc 開放給 Objective-C 呼叫
+* ObjcIPManager.h
+裡面提供兩個 function: 
+1. getIP (使用 Objective-C 語法)
+2. getIPFromSwift (在 Objective-C 中 呼叫 Swift)
