@@ -14,3 +14,5 @@
 裡面提供兩個 function: 
 1. getIP (使用 Objective-C 語法)
 2. getIPFromSwift (在 Objective-C 中 呼叫 Swift)
+
+Push第二次
