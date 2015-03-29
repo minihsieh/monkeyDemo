@@ -16,3 +16,5 @@
 2. getIPFromSwift (在 Objective-C 中 呼叫 Swift)
 
 Push第二次
+
+測試PUSH可否完成
